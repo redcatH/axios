@@ -134,11 +134,6 @@
     "terser-webpack-plugin": "^4.2.3",
     "typescript": "^4.8.4"
   },
-  "browser": {
-    "./lib/adapters/http.js": "./lib/helpers/null.js",
-    "./lib/platform/node/index.js": "./lib/platform/browser/index.js",
-    "./lib/platform/node/classes/FormData.js": "./lib/helpers/null.js"
-  },
   "jsdelivr": "dist/axios.min.js",
   "unpkg": "dist/axios.min.js",
   "typings": "./index.d.ts",
